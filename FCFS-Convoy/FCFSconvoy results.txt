@@ -1,0 +1,51 @@
+Just convoy1-20
+
+System time: 50234
+Kernel time: 879
+User time: 9865
+Idle time: 39490
+Context switches: 213
+CPU utilization: 19.64
+
+With spoiler at front
+
+System time: 51053
+Kernel time: 882
+User time: 12648
+Idle time: 37523
+Context switches: 210
+CPU utilization: 24.77
+
+With spoiler at end
+
+System time: 51117
+Kernel time: 897
+User time: 12648
+Idle time: 37572
+Context switches: 215
+CPU utilization: 24.74
+
+With spoiler between 9-10
+
+System time: 51315
+Kernel time: 894
+User time: 12648
+Idle time: 37773
+Context switches: 214
+CPU utilization: 24.65
+
+System time: time spent running code in the operating system kernel on behalf of your program
+Kernel time: time spent doing system calls
+User time: time spent on the processor running your program's code (or code in libraries)
+Idle time: When CPU not being used by other programs
+
+Definition for convoy effect
+
+When one CPU intensive process blocks the CPU, a number of I/O intensive processes can get backed up behind it, leaving the I/O devices idle. When the CPU hog finally relinquishes the CPU, then the I/O processes pass through the CPU quickly, leaving the CPU idle while everyone queues up for I/O, and then the cycle repeats itself when the CPU intensive process gets back to the ready queue.
+
+
+
+
+
+
+

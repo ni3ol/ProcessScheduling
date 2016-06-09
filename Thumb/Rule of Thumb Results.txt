@@ -1,0 +1,116 @@
+Timeslice = 1
+
+System time: 468797
+Kernel time: 375056
+User time: 93684
+Idle time: 57
+Context switches: 93742
+CPU utilization: 19.98
+
+Timeslice = 10
+
+System time: 131509
+Kernel time: 37768
+User time: 93684
+Idle time: 57
+Context switches: 9420
+CPU utilization: 71.24
+
+Timeslice = 20
+
+System time: 112749
+Kernel time: 19008
+User time: 93684
+Idle time: 57
+Context switches: 4730
+CPU utilization: 83.09
+
+Timeslice = 50
+
+System time: 101497
+Kernel time: 7756
+User time: 93684
+Idle time: 57
+Context switches: 1917
+CPU utilization: 92.30
+
+Timeslice = 100
+
+System time: 97729
+Kernel time: 3988
+User time: 93684
+Idle time: 57
+Context switches: 975
+CPU utilization: 95.86
+
+Timeslice = 300
+
+System time: 95265
+Kernel time: 1524
+User time: 93684
+Idle time: 57
+Context switches: 359
+CPU utilization: 98.34
+
+Timeslice = 400
+
+System time: 94969
+Kernel time: 1228
+User time: 93684
+Idle time: 57
+Context switches: 285
+CPU utilization: 98.65
+
+Timeslice = 500 
+
+System time: 94801
+Kernel time: 1060
+User time: 93684
+Idle time: 57
+Context switches: 243
+CPU utilization: 98.82
+
+Timeslice = 1000
+
+System time: 94445
+Kernel time: 704
+User time: 93684
+Idle time: 57
+Context switches: 154
+CPU utilization: 99.19
+
+Timeslice = 2000
+
+System time: 94273
+Kernel time: 532
+User time: 93684
+Idle time: 57
+Context switches: 111
+CPU utilization: 99.38
+
+Timeslice = 4000
+
+System time: 94145
+Kernel time: 461
+User time: 93684
+Idle time: 0
+Context switches: 93
+CPU utilization: 99.51
+
+Timeslice = 5000
+
+System time: 94137
+Kernel time: 453
+User time: 93684
+Idle time: 0
+Context switches: 91
+CPU utilization: 99.52
+
+FCFS 
+
+System time: 94137
+Kernel time: 453
+User time: 93684
+Idle time: 0
+Context switches: 91
+CPU utilization: 99.52
